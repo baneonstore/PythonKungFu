@@ -1,7 +1,28 @@
+# Copyright © 2020 baneon - MIT License
+# See `LICENSE` included in the source distribution for details.
+
+"""Módulo \"peticiones\"
+-------------------
+
+\"main\" utiliza este módulo para hacer peticiones a una
+lista de servidores.
+
+La lista puede ser creada con el módulo de \"configuraciones\".
+"""
+
 import socket
 import struct
 
 def obtener_ntp(direccion):
+    """Args:
+        direccion (str): Direccion de un servidor.
+
+    Returns:
+        int: Devuelve un entero con los datos de la hora.
+
+    Errors:
+        None: Tiempo de espera de la petición al servidor expirado.
+    """
     TIEMPO_1970 = 2208988800
     cliente = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     mensaje = "\x1b" + 47 * "\0"

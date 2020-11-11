@@ -1,3 +1,6 @@
+# Copyright © 2020 baneon - MIT License
+# See `LICENSE` included in the source distribution for details.
+
 import os
 import sys
 import pathlib
