@@ -4,7 +4,7 @@
 _Utiliza internet y pide a servidores que sincronize tu hora en Windows._
 
 ## Descripción
-. Se libre de manipular y aprender del código o participa y se un colaborador. El Actualizador de Hora Windows es el primero de una serie de herramientas con el que plantear problemas y ejercicios del grupo [Python Kung Fu](t.me/python_kungfu)
+. Se libre de manipular y aprender del código o participa y se un colaborador. El Actualizador de Hora Windows es el primero de una serie de herramientas con el que plantear problemas y ejercicios del grupo [Python Kung Fu](https://t.me/python_kungfu)
 
 ### Requisitos
 * pywin32
